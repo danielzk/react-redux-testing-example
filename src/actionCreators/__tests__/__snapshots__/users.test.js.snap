@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users actionCreators createUser should create the user and create ADD_USER action: dispatched actions 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "user": Object {
+        "firstName": "Mark",
+        "id": 1,
+        "lastName": "Zucaritas",
+        "username": "username1",
+      },
+    },
+    "type": "ADD_USER",
+  },
+]
+`;
+
+exports[`Users actionCreators createUser should create the user and create ADD_USER action: request data 1`] = `
+Object {
+  "data": Object {
+    "firstName": "Mark",
+    "lastName": "Zucaritas",
+    "username": "username1",
+  },
+  "method": "post",
+  "url": "api/v1/users/",
+}
+`;
+
+exports[`Users actionCreators deleteUser should delete the user and create REMOVE_USER action: dispatched actions 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "id": 1,
+    },
+    "type": "REMOVE_USER",
+  },
+]
+`;
+
+exports[`Users actionCreators deleteUser should delete the user and create REMOVE_USER action: request data 1`] = `
+Object {
+  "data": null,
+  "method": "delete",
+  "url": "/api/v1/users/1/",
+}
+`;
+
+exports[`Users actionCreators loadUsers should load users and create SET_USERS action: dispatched actions 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "users": Immutable.OrderedMap {
+        1: Object {
+          "firstName": "Mark",
+          "id": 1,
+          "lastName": "Zucaritas",
+          "username": "username1",
+        },
+        2: Object {
+          "firstName": "Mark",
+          "id": 2,
+          "lastName": "Zucaritas",
+          "username": "username2",
+        },
+      },
+    },
+    "type": "SET_USERS",
+  },
+]
+`;
+
+exports[`Users actionCreators loadUsers should load users and create SET_USERS action: request data 1`] = `
+Object {
+  "data": null,
+  "method": "get",
+  "url": "api/v1/users/",
+}
+`;

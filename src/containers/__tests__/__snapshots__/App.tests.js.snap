@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App container should render UsersPanel 1`] = `
+<div>
+  <UsersPanel />
+</div>
+`;

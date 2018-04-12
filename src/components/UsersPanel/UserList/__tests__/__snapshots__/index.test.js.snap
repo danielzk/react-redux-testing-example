@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserList component should display a no-users message if no users 1`] = `
+<div>
+  <span>
+    No users
+  </span>
+</div>
+`;
+
+exports[`UserList component should render list of users 1`] = `
+<div>
+  <ul>
+    <UserItem
+      key="1"
+      user={
+        Object {
+          "firstName": "Mark",
+          "id": 1,
+          "lastName": "Zucaritas",
+          "username": "username1",
+        }
+      }
+      users={
+        Immutable.OrderedMap {
+          1: Object {
+            "firstName": "Mark",
+            "id": 1,
+            "lastName": "Zucaritas",
+            "username": "username1",
+          },
+          2: Object {
+            "firstName": "Mark",
+            "id": 2,
+            "lastName": "Zucaritas",
+            "username": "username2",
+          },
+        }
+      }
+    />
+    <UserItem
+      key="2"
+      user={
+        Object {
+          "firstName": "Mark",
+          "id": 2,
+          "lastName": "Zucaritas",
+          "username": "username2",
+        }
+      }
+      users={
+        Immutable.OrderedMap {
+          1: Object {
+            "firstName": "Mark",
+            "id": 1,
+            "lastName": "Zucaritas",
+            "username": "username1",
+          },
+          2: Object {
+            "firstName": "Mark",
+            "id": 2,
+            "lastName": "Zucaritas",
+            "username": "username2",
+          },
+        }
+      }
+    />
+  </ul>
+</div>
+`;

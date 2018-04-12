@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserItem component should render username, full name and delete button 1`] = `
+<li>
+  <span>
+    Username: 
+    username1
+  </span>
+  <span>
+    Full name: 
+    Mark
+     
+    Zucaritas
+  </span>
+  <button
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</li>
+`;

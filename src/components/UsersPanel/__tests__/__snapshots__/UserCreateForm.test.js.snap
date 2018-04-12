@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCreateForm component should render field values 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    id="username"
+    onChange={[Function]}
+    placeholder="Username"
+    type="text"
+    value="username"
+  />
+  <input
+    id="first-name"
+    onChange={[Function]}
+    placeholder="First name"
+    type="text"
+    value="Daniel"
+  />
+  <input
+    id="last-name"
+    onChange={[Function]}
+    placeholder="Last name"
+    type="text"
+    value="Ramos"
+  />
+  <button
+    type="submit"
+  >
+    Create
+  </button>
+</form>
+`;

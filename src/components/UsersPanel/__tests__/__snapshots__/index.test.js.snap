@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersPanel component should render UserCreateForm and UserList, and call loadUsers 1`] = `
+<div>
+  <UserCreateForm
+    actions={
+      Object {
+        "loadUsers": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
+      }
+    }
+  />
+  <UserList
+    actions={
+      Object {
+        "loadUsers": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+        },
+      }
+    }
+  />
+</div>
+`;

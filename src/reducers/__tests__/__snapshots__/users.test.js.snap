@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users reducer ADD_USER should add user 1`] = `
+Immutable.OrderedMap {
+  1: Object {
+    "firstName": "Mark",
+    "id": 1,
+    "lastName": "Zucaritas",
+    "username": "username1",
+  },
+}
+`;
+
+exports[`Users reducer REMOVE_USER should remove user 1`] = `
+Immutable.OrderedMap {
+  2: Object {
+    "firstName": "Mark",
+    "id": 2,
+    "lastName": "Zucaritas",
+    "username": "username2",
+  },
+}
+`;
+
+exports[`Users reducer SET_USERS should set users 1`] = `
+Immutable.OrderedMap {
+  1: Object {
+    "firstName": "Mark",
+    "id": 1,
+    "lastName": "Zucaritas",
+    "username": "username1",
+  },
+  2: Object {
+    "firstName": "Mark",
+    "id": 2,
+    "lastName": "Zucaritas",
+    "username": "username2",
+  },
+}
+`;
+
+exports[`Users reducer should handle initial state 1`] = `Immutable.OrderedMap {}`;

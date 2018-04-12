@@ -1,0 +1,16 @@
+{
+  "setupTestFrameworkScriptFile": "./jest/setup",
+  "verbose": true,
+  "rootDir": "../",
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "**/*.{js}",
+    "!**/node_modules/**",
+    "!**webpack*.js",
+    "!.eslintrc.js"
+  ],
+  "coverageDirectory": "./jest/.coverage"
+}
