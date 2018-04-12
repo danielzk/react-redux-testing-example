@@ -24,7 +24,7 @@ Object {
     "username": "username1",
   },
   "method": "post",
-  "url": "api/v1/users/",
+  "url": "/api/v1/users/",
 }
 `;
 
@@ -75,6 +75,6 @@ exports[`Users actionCreators loadUsers should load users and create SET_USERS a
 Object {
   "data": null,
   "method": "get",
-  "url": "api/v1/users/",
+  "url": "/api/v1/users/",
 }
 `;
