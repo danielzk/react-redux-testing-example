@@ -9,7 +9,6 @@
   "collectCoverageFrom": [
     "**/*.{js}",
     "!**/node_modules/**",
-    "!**webpack*.js",
     "!.eslintrc.js"
   ],
   "coverageDirectory": "./jest/.coverage"
